@@ -1,0 +1,240 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#maindiv{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    /* width: clamp(200px, 100%, 600px); */
+}
+#maindiv #div1 ul li{
+    padding: 10px;
+}
+#maindiv #div1 ul li a{
+    text-decoration: none;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+#head{
+    /* border: 2px solid; */
+    text-align: center;
+    padding: 25px;
+    width: 750px;
+    margin-top: 11%;
+}
+#head h1{
+    font-size: 60px;
+}
+#maindiv #div2 ul{
+    list-style: none;
+}
+#maindiv #div2 ul li{
+    margin-right: 8px;
+    padding: 10px;
+    float: left;
+}
+#maindiv #div3 ul{
+    list-style: none;
+}
+#maindiv #div3 ul li{
+    padding: 10px;
+    margin-right: 8px;
+    float: left;
+}
+#multidiv{
+    width: 1250px;
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 500px 500px;
+    display: grid;
+}
+.out {
+    /* border: 2px solid; */
+    height: 450px;
+    width: 350px;
+}
+#multidiv #product {
+    /* border: 2px solid; */
+    height: 450px;
+    width: 350px;
+
+}
+aside{
+    height: 205px;
+}
+.title{
+    /* border: 2px solid; */
+    margin-top: 39px;
+    width: 340px;
+    height: 141px;
+}
+#multidiv aside img{
+    margin-top: 4px;
+    height: 260px;
+    width: 346px;
+}
+#multidiv aside a{
+    border: 2px solid rgb(235, 228, 228);
+    background-color: rgb(213, 213, 253);
+    padding: 5px;
+    border-radius: 18px;
+    margin-left: 10px;
+    color: blue;
+    float: left;
+    text-decoration: none;
+    font-family:serif;
+}
+#multidiv article img{
+    margin-top: 4px;
+    height: 260px;
+    width: 346px;
+}
+#multidiv article a{
+    border: 2px solid rgb(235, 228, 228);
+    background-color: rgb(213, 213, 253);
+    padding: 5px;
+    border-radius: 18px;
+    margin-left: 10px;
+    color: blue;
+    float: left;
+    text-decoration: none;
+    font-family:serif;
+}
+#multidiv section img{
+    margin-top: 4px;
+    height: 260px;
+    width: 346px;
+}
+#multidiv section a{
+    border: 2px solid rgb(235, 228, 228);
+    background-color: rgb(213, 213, 253);
+    padding: 5px;
+    border-radius: 18px;
+    margin-left: 10px;
+    color: blue;
+    float: left;
+    text-decoration: none;
+    font-family:serif;
+}
+#multidiv #product img{
+    margin-top: 4px;
+    height: 260px;
+    width: 330px;
+}
+#multidiv #product a{
+    border: 2px solid rgb(235, 228, 228);
+    background-color: rgb(213, 213, 253);
+    padding: 5px;
+    border-radius: 18px;
+    margin-left: 10px;
+    color: blue;
+    float: left;
+    text-decoration: none;
+    font-family:serif;
+}
+#maindiv #div2 ul li h3 a{
+    text-decoration: none;
+    color: black;
+}
+#maindiv #div3 ul li h3 a{
+    text-decoration: none;
+    color: black;
+}
+#sub{
+    border: 2px solid #cbcbfc;
+    height: 370px;
+    background-color: #cbcbfc;
+}
+#sub article{
+    /* border: 2px solid; */
+    margin-left: 55px;
+    margin-top: 44px;
+    height: 280px;
+    width: 1230px;
+    display: flex;
+    justify-content: space-between;
+}
+#sub article #left{
+    /* border: 2px solid; */
+    margin-left: 40px;
+    width: 570px;
+    margin-top: 90px;
+}
+#sub article #right{
+    /* border: 2px solid; */
+    width: 570px;
+    margin-top: 95px;
+    text-align: center;
+}
+#res{
+    /* border: 2px solid; */
+    margin-top: 80px;
+    margin-bottom: 50px;
+    height: 190px;
+    width: 715px;
+}
+
+
+#all{
+    background-color: rgb(210, 240, 240);
+    display: flex;
+}
+#space{
+    height: 130px;
+    background-color: rgb(210, 240, 240);
+}
+#all #tab{
+    /* margin-top: 130px; */
+    margin-left: 88px;
+    height: 650px;
+    width: 668px;
+    border: 2px solid;
+    background-color: white;
+    /* display: flex; */
+}
+#all #tab article{
+    height: 560px;
+    width: 560px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+#all #tab aside{
+    height: 170px;
+    padding: 40px;
+}
+#all #tab aside h3{
+    font-size: 25px;
+}
+#all #tab section{
+    margin-left: 40px;
+}
+#all #tab article section table span{
+    color: red;
+}
+#all #tab article section table #policy{
+    color: black;
+}
+#all #follow{
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 150px;
+    width: 150px;
+    /* border: 2px solid; */
+}
+#all #follow a{
+    text-decoration: none;
+    color: black;
+}
+#all #general{
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 150px;
+    width: 170px;
+}
